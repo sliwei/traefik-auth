@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+@font-face {
+  font-family: 'iconfont';  /* Project id 2776712 */
+  src: url('//at.alicdn.com/t/font_2776712_modh9djwo0n.woff2?t=1630306522761') format('woff2'),
+  url('//at.alicdn.com/t/font_2776712_modh9djwo0n.woff?t=1630306522761') format('woff'),
+  url('//at.alicdn.com/t/font_2776712_modh9djwo0n.ttf?t=1630306522761') format('truetype');
+}
+
+@font-face {
+  font-family: 'JDZhengHT-Medium';
+  src: url(assets/fonts/JDZhengHT-Medium.0bea5bb.ttf);
+}
+
+@font-face {
+  font-family: 'JDZhengHT-Bold';
+  src: url(assets/fonts/JDZhengHT-Bold.9dddc33.ttf);
+}

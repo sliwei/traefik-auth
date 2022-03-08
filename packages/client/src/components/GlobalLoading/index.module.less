@@ -1,0 +1,24 @@
+.loading {
+  position: fixed;
+  z-index: 999999;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(0, 0, 0, .05);
+
+  :global {
+    .anticon-loading {
+      font-size: 20px;
+    }
+  }
+
+  p {
+    font-size: 12px;
+    margin: 10px;
+  }
+}

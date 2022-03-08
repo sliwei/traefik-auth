@@ -1,0 +1,22 @@
+{
+  "apps": [
+    {
+      "name": "server-serve",
+      "cwd": "./",
+      "script": "app/server.js",
+      "log_date_format": "YYYY-MM-DD HH:mm:ss",
+      "error_file": "~/logs/server-serve-error_file.log",
+      "out_file": "~/logs/server-serve-out_file.log",
+      "instances": 1,
+      "min_uptime": "200s",
+      "max_restarts": 15,
+      "max_memory_restart": "2048M",
+      "watch": false,
+      "merge_logs": true,
+      "exec_interpreter": "node",
+      "exec_mode": "cluster",
+      "autorestart": true,
+      "vizion": false
+    }
+  ]
+}

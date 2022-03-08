@@ -1,0 +1,28 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "install": "lerna bootstrap",
+    "rm-dist": "lerna run rm-dist --parallel",
+    "dev": "lerna run dev --parallel",
+    "build:dev": "",
+    "build:test": "",
+    "build:prod": "",
+    "build:live": "",
+    "build:client:dev": "",
+    "build:client:test": "",
+    "build:client:prod": "",
+    "build:client:live": "",
+    "build:server:dev": "",
+    "build:server:test": "",
+    "build:server:prod": "",
+    "build:server:live": "",
+    "build:docker": "docker build -t traefik-auth:x.x.x packages/server/*",
+    "build:tag": "docker tag traefik-auth:x.x.x sliwei/traefik-auth:x.x.x",
+    "build:push": "docker push sliwei/traefik-auth:x.x.x",
+    "docker-compose": "cd test && docker-compose up -d"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
